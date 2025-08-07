@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toronto Parks Washrooms</title>
+  <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f7f7f7;
+    }
+    h1 {
+      text-align: center;
+    }
+    #vizContainer {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Toronto - Parks Washrooms</h1>
+  <div id="vizContainer">
+    <tableau-viz 
+      id="tableauViz"
+      src="https://public.tableau.com/views/Book1_17545380628400/Sheet1"
+      width="1000px"
+      height="800px"
+      toolbar="bottom"
+      hide-tabs>
+    </tableau-viz>
+  </div>
+</body>
+</html>
