@@ -27,4 +27,4 @@ This project presents an interactive Tableau dashboard that visualizes the **loc
 [City of Toronto Open Data Portal](https://open.toronto.ca/dataset/washroom-facilities/)
 
 
-👤 Created by Jaswinder Singh
+👨‍💻 Created by Jaswinder Singh
